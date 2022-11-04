@@ -22,6 +22,14 @@ describe("engineer", () => {
         });
     });
 
+    describe("getGithub", () => {
+        it("Should return github username when getGithub() is called on engineer object", () => {
+            const testE = new engineer('Seve', 'seve@email.com', 15, 'sevepalattao');
+            const username = 'sevepalattao';
+            eGithub = testE.getGithub();
+            expect(eGithub).toEqual(username);
+        })
+    })
     describe("getRole", () => {
         it("Should return role when getRole() is called on engineer object", () => {
             const testE = new engineer('Seve', 'seve@email.com', 15, 'sevepalattao');
