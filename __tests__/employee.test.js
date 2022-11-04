@@ -18,11 +18,6 @@ describe("employee", () => {
             expect(testE.email).toEqual(email);
             expect(testE.id).toEqual(id);
         });
-
-        it("Should set role to 'Employee'", () => {
-            const testE = new employee();
-            expect(testE.role).toEqual('Employee');
-        });
     });
 
     describe("getName", () => {
@@ -55,9 +50,9 @@ describe("employee", () => {
     describe("getRole", () => {
         it("Should return role when getRole() is called on employee object", () => {
             const testE = new employee('Seve', 'seve@email.com', 15);
-
+            const role = 'Employee';
             eRole = testE.getRole();
-            expect(eRole).toEqual(testE.role);
+            expect(eRole).toEqual(role);
         });
     });
 });
