@@ -12,4 +12,10 @@ is started by running the command ``` node index.js ``` in the terminal. To run 
 # Walkthrough Video
 
 Here is the link to my walkthrough video, showing a new user how to test and run this application. 
+
+https://app.castify.com/view/d6d8f7c8-5689-4599-999d-b896ac8db344
+
 # Screenshot
+
+Below is a screenshot of a sample generated HTML page using this application.
+
