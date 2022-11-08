@@ -19,3 +19,6 @@ https://app.castify.com/view/d6d8f7c8-5689-4599-999d-b896ac8db344
 
 Below is a screenshot of a sample generated HTML page using this application.
 
+<img width="1440" alt="Screen Shot 2022-11-08 at 11 25 04 AM" src="https://user-images.githubusercontent.com/110855018/200634677-598a40f0-59cf-4aa2-82a9-7bda49a70d9f.png">
+
+
