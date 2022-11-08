@@ -44,7 +44,7 @@ function populateHTML(teams) {
         }
 
         else if (teams[i].github) {
-            card += `<li class= "list-group-item">Github: ${teams[i].github}</li></ul></div>`;
+            card += `<li class= "list-group-item">Github: <a href="https://www.github.com/${teams[i].github}">${teams[i].github}</a></li></ul></div>`;
         }
 
         else if (teams[i].school) {
