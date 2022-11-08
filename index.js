@@ -3,7 +3,7 @@ const employee = require('./lib/employee');
 const engineer = require('./lib/engineer');
 const manager = require('./lib/manager');
 const intern = require('./lib/intern');
-
+const template = require('./src/template');
 const team = [];
 
 function addMember() {
@@ -91,7 +91,9 @@ function Continue() {
         if (data.continue) {
             addMember();
         } else {
-            console.log(team);
+            //TODO: add generate html function call//
+            let html = template.populateHTML(team);
+            template.writeHTML(html);
         };
     });
 };
